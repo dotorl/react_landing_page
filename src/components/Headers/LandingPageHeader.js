@@ -44,7 +44,8 @@ function LandingPageHeader() {
     <>
       <div
         style={{
-          backgroundImage: "url(" + require("assets/img/daniel-olahh.jpg") + ")"
+          // backgroundImage: "url(" + require("assets/img/daniel-olahh.jpg") + ")"
+          backgroundImage: "url(" + require("assets/img/temple/20170826_144433.jpg") + ")"
         }}
         className="page-header"
         data-parallax={true}
@@ -53,7 +54,7 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <h1>Example page</h1>
+            <h1 className="test">세 광 사</h1>
             <h3>Start designing your landing page here.</h3>
             <br />
             <Button

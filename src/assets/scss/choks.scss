@@ -1,0 +1,27 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumpenscript.css");
+@import url("http://fonts.googleapis.com/earlyaccess/jejuhallasan.css");
+
+@font-face {
+  font-family: 'Lee sun sin';
+  src: url('../fonts/leesunsin-Regular.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lee sun sin';
+  src: url('../fonts/leesunsin-Bold.woff');
+  // src: url('../fonts/nucleo-icons.eot');
+  // src: url('../fonts/nucleo-icons.eot') format('embedded-opentype'), url('../fonts/nucleo-icons.woff2') format('woff2'), url('../fonts/nucleo-icons.woff') format('woff'), url('../fonts/nucleo-icons.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.test{
+  font-family: 'Nanum Brush Script', serif;
+  font-family: 'Nanum Pen Script', serif;
+  font-family: 'Jeju Hallasan', serif;
+  font-family: 'Lee sun sin', serif;
+}
