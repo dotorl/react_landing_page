@@ -54,8 +54,8 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <h1 className="test">세 광 사</h1>
-            <h3>Start designing your landing page here.</h3>
+            <h1 className="test">世 廣 寺</h1>
+            <h3 className="test">경기도 양주시 새터로 12</h3>
             <br />
             <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"

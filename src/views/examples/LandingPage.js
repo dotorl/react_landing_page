@@ -85,7 +85,7 @@ function LandingPage() {
                     <i className="nc-icon nc-album-2" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
+                    <h4 className="info-title">갤러리</h4>
                     <p className="description">
                       Spend your time generating new ideas. You don't have to
                       think of implementing.
@@ -99,10 +99,10 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-bulb-63" />
+                    <i className="nc-icon nc-calendar-60" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
+                    <h4 className="info-title">일정</h4>
                     <p>
                       Larger, yet dramatically thinner. More powerful, but
                       remarkably power efficient.
@@ -152,7 +152,7 @@ function LandingPage() {
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title">인사말</h2>
             <Row>
               <Col md="4">
                 <Card className="card-profile card-plain">
@@ -204,6 +204,48 @@ function LandingPage() {
                       <i className="fa fa-linkedin" />
                     </Button>
                   </CardFooter>
+                </Card>
+              </Col>
+              <Col md="8">
+                <Card className="card-plain">
+                  <CardBody>
+                    <a href="#pablo" onClick={e => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h4">Robert Orben</CardTitle>
+                        <h6 className="card-category">Developer</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      The strength of the team is each individual member. The
+                      strength of each member is the team. If you can laugh
+                      together, you can work together, silence isn’t golden,
+                      it’s deadly.
+                    </p>
+                    <p className="card-description text-center">
+                      The strength of the team is each individual member. The
+                      strength of each member is the team. If you can laugh
+                      together, you can work together, silence isn’t golden,
+                      it’s deadly.
+                    </p>
+                    <p className="card-description text-center">
+                      The strength of the team is each individual member. The
+                      strength of each member is the team. If you can laugh
+                      together, you can work together, silence isn’t golden,
+                      it’s deadly.
+                    </p>
+                    <p className="card-description text-center">
+                      The strength of the team is each individual member. The
+                      strength of each member is the team. If you can laugh
+                      together, you can work together, silence isn’t golden,
+                      it’s deadly.
+                    </p>
+                    <p className="card-description text-center">
+                      The strength of the team is each individual member. The
+                      strength of each member is the team. If you can laugh
+                      together, you can work together, silence isn’t golden,
+                      it’s deadly.
+                    </p>
+                  </CardBody>
                 </Card>
               </Col>
             </Row>
